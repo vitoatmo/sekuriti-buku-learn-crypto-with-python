@@ -1,3 +1,4 @@
+#belom bisa
 import math
 import pyperclip
 def main():
