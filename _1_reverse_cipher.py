@@ -1,4 +1,4 @@
-message = input('Input: ')
+message = input('Input : ')
 translated = '' #cipher text is stored in this variable
 i = len(message) - 1
 while i >= 0:

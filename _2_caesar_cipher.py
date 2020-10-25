@@ -1,3 +1,6 @@
+
+text = input("Input : ")
+
 def encrypt(text, s):
     result = ''
     # transverse the plain text
@@ -12,8 +15,7 @@ def encrypt(text, s):
     return result
     #check the above function
     
-text = "CEASER CIPHER DEMO"
-s = int(input('Shift pattern : ' ))
+s = int(input('Geser (int): ' ))
 print("Plain Text : " + text)
 print("Shift pattern : " + str(s))
 print("Cipher: " + encrypt(text, s))
