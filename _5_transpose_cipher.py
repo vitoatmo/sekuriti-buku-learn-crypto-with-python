@@ -1,5 +1,5 @@
 #A simple example for a transposition cipher is columnar transposition cipher
-# BELOM BISA
+print("BELOM BISA")
 
 # def split_len(seq, length):
 #    return [seq[i:i + length] for i in range(0, len(seq), length)]

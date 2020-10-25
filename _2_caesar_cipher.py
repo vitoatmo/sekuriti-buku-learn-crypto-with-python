@@ -1,4 +1,3 @@
-
 text = input("Input : ")
 
 def encrypt(text, s):
