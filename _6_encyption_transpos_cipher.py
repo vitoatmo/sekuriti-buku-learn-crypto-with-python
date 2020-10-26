@@ -1,11 +1,13 @@
 import pyperclip
 
+print("\n<< BISA - ENCRYPTION TRANSPOSITION CIPHER >>\n")
+
 def main():
     myMessage = input("Input : ")
     myKey = int(input("Key : "))
     ciphertext = encryptMessage(myKey, myMessage)
-    print("Cipher Text is")
-    print(ciphertext + '|')
+    print("\nCipher Text is")
+    print('>> ' + ciphertext)
     pyperclip.copy(ciphertext)
 
 def encryptMessage(key, message):

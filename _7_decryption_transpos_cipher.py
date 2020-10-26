@@ -1,8 +1,10 @@
  # Transposition Cipher Decryption
  # https://www.nostarch.com/crackingcodes/ (BSD Licensed)
  
+print("<< BELOM JADI >>")
+
 import math, pyperclip
- 
+
 def main():
     myMessage = 'Cenoonommstmme oo snnio. s s c'
     myKey = 8

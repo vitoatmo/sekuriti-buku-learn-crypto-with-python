@@ -1,3 +1,5 @@
+print("\n<<BISA - REVERSE CIPHER>>\n")
+
 message = input('Input : ')
 translated = '' #cipher text is stored in this variable
 i = len(message) - 1
