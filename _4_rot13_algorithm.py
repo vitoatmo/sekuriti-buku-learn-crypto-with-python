@@ -1,10 +1,10 @@
 #ROT13 cipher refers to the abbreviated form Rotate by 13 places.
 
 def rot13(phrase):
-   abc = "abcdefghijklmnopqrstuvwxyz"
+   abc = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
    out_phrase = ""
    for char in phrase:
-       out_phrase += abc[(abc.find(char)+13) % 26]
+       out_phrase += abc[(abc.find(char)+13) % 72]
    return out_phrase
 
 phrase = input("Masukan input : ")

@@ -5,8 +5,7 @@ usage = "usage: %prog [options] "
 Version = "%prog 0.0.1"
 # ====================================================
 # Import Modules
-import os
-import sys
+import os, sys
 import optparse
 from toolkit import processor as ps 
 def main():
